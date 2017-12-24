@@ -24,7 +24,7 @@ export class AppVariablesService {
   public LOCALSTORAGE_user_fullName  = 'userFullName';
 
   // readonly BACKEND_SERVER_URL = 'https://shielded-harbor-17443.herokuapp.com';
-  readonly BACKEND_SERVER_URL = 'https://cartisanapp.herokuapp.com/ ';
+  readonly BACKEND_SERVER_URL = 'https://cartisanappnodejs.herokuapp.com/ ';
 
   public BACKEND_SIGNUP_URL = this.BACKEND_SERVER_URL + '/users/signup';
   public BACKEND_LOGIN_URL =  this.BACKEND_SERVER_URL+ '/users/login';
