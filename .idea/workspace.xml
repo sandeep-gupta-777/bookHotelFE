@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20e3753c-7f82-429a-ba94-c3ad39ac65a9" name="Default" comment="" />
+    <list default="true" id="20e3753c-7f82-429a-ba94-c3ad39ac65a9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/editor/editor.component.html" afterPath="$PROJECT_DIR$/src/app/editor/editor.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/editor/editor.component.ts" afterPath="$PROJECT_DIR$/src/app/editor/editor.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/header/header.component.ts" afterPath="$PROJECT_DIR$/src/app/header/header.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/image-edit/image-edit.component.ts" afterPath="$PROJECT_DIR$/src/app/image-edit/image-edit.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/login/login.component.ts" afterPath="$PROJECT_DIR$/src/app/login/login.component.ts" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,24 +24,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="karma.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <file leaf-file-name="header.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/header/header.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="493">
+              <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <file leaf-file-name="header.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/header/header.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/login/login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,30 +59,18 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+            <state relative-caret-position="374">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="protractor.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protractor.conf.js">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -81,15 +87,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>date</find>
-      <find>Estimated</find>
-      <find>Order Date</find>
-      <find>overflow</find>
-      <find>hover</find>
-      <find>imageCli</find>
       <find>makeImageSemiTransparent</find>
       <find>input</find>
-      <find>app-timeline</find>
       <find>https://images.pexels.com/photos/401796/pexels-photo-401796.jpeg?w=1260&amp;h=750&amp;auto=compress&amp;cs=tinysrgb</find>
       <find>a</find>
       <find>another</find>
@@ -108,9 +107,16 @@
       <find>image d</find>
       <find>image de</find>
       <find>j</find>
-      <find>jquery</find>
       <find>save</find>
       <find>tooltip</find>
+      <find>$</find>
+      <find>jquery</find>
+      <find>editor.component</find>
+      <find>app-timeline</find>
+      <find>he</find>
+      <find>header</find>
+      <find>makeGetRequestForFaceBook</find>
+      <find>makeGetRequestForFaceBoohk</find>
     </findStrings>
     <replaceStrings>
       <replace>showMessageForGivenTime</replace>
@@ -140,8 +146,6 @@
         <option value="$PROJECT_DIR$/src/app/order-car-service/order-car-service.component.html" />
         <option value="$PROJECT_DIR$/src/app/order-car-service/order-car-service.component.css" />
         <option value="$PROJECT_DIR$/src/app/grid/grid.component.css" />
-        <option value="$PROJECT_DIR$/src/app/editor/editor.component.html" />
-        <option value="$PROJECT_DIR$/src/app/editor/editor.component.ts" />
         <option value="$PROJECT_DIR$/src/app/helper.service.ts" />
         <option value="$PROJECT_DIR$/src/styles.css" />
         <option value="$PROJECT_DIR$/src/app/login/login.component.html" />
@@ -154,16 +158,13 @@
         <option value="$PROJECT_DIR$/src/app/grid/grid.component.ts" />
         <option value="$PROJECT_DIR$/src/app/order-details/order-details.component.ts" />
         <option value="$PROJECT_DIR$/src/app/price/price.component.html" />
-        <option value="$PROJECT_DIR$/src/app/login/login.component.ts" />
         <option value="$PROJECT_DIR$/src/app/signup/signup.component.html" />
         <option value="$PROJECT_DIR$/src/app/header/header.component.html" />
-        <option value="$PROJECT_DIR$/src/app/header/header.component.ts" />
         <option value="$PROJECT_DIR$/src/app/footer/footer.component.html" />
         <option value="$PROJECT_DIR$/src/app/new-order/new-order.component.html" />
         <option value="$PROJECT_DIR$/src/app/Models.ts" />
         <option value="$PROJECT_DIR$/src/app/new-order/new-order.component.ts" />
         <option value="$PROJECT_DIR$/src/app/order-car-service/order-car-service.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/app/image-edit/image-edit.component.css" />
         <option value="$PROJECT_DIR$/src/app/homepage/homepage.component.html" />
         <option value="$PROJECT_DIR$/src/app/signup/signup.component.ts" />
@@ -174,8 +175,13 @@
         <option value="$PROJECT_DIR$/src/app/grid/grid.component.html" />
         <option value="$PROJECT_DIR$/src/app/image-edit/image-edit.component.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/app/image-edit/image-edit.component.ts" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app/image-edit/image-edit.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/editor/editor.component.html" />
+        <option value="$PROJECT_DIR$/src/app/editor/editor.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/header/header.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/login/login.component.ts" />
       </list>
     </option>
   </component>
@@ -191,10 +197,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-7" />
+    <option name="width" value="1475" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -222,6 +227,148 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="timeline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image-edit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="header" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartisan_Angular5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="editor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,7 +400,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.tslint" value="C:\Users\sandgup3\Desktop\NodeBook\cartisan_Angular5\node_modules\tslint" />
-    <property name="SearchEverywhereHistoryKey" value="index.h&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/index.html&#10;index&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/node_modules/protractor/built/index.d.ts&#10;price&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/price/price.component.ts&#10;displa&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;header&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/header/header.component.html&#10;modu&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts&#10;login&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/login/login.component.ts&#10;model&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/Models.ts&#10;PRICE&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/price/price.component.html&#10;pri&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/price/price.component.html&#10;image&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/image-edit/image-edit.component.ts&#10;mode&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/Models.ts&#10;edit&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/editor/editor.component.ts&#10;detail&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-details/order-details.component.ts&#10;editor&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/editor/editor.component.html&#10;Edit image&#9;null&#9;null&#10;hea&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/header/header.component.html&#10;headers&#9;null&#9;null&#10;display&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;displau&#9;null&#9;null&#10;new or&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/new-order/new-order.component.ts&#10;sign&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/signup/signup.component.ts&#10;footer&#9;null&#9;null&#10;style&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/styles.css&#10;helper&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/helper.service.spec.ts&#10;module&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts&#10;sty&#9;null&#9;null&#10;DIS&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;app&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.component.html&#10;server&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/server.service.ts&#10;varia&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/appVariables.service.ts&#10;dis&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;order&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-details/order-details.component.spec.ts&#10;grid&#9;null&#9;null&#10;log&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/login/login.component.ts&#10;mod&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts&#10;App&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/appVariables.service.ts&#10;APPC&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.component.ts&#10;cli&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/.angular-cli.json&#10;auth&#9;null&#9;null&#10;inde&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/index.html&#10;HEA&#9;null&#9;null&#10;app.modu&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts" />
+    <property name="SearchEverywhereHistoryKey" value="pack&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/package.json&#10;module&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts&#10;image&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/image-edit/image-edit.component.ts&#10;index.h&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/index.html&#10;index&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/node_modules/protractor/built/index.d.ts&#10;price&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/price/price.component.ts&#10;displa&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;header&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/header/header.component.html&#10;modu&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts&#10;login&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/login/login.component.ts&#10;model&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/Models.ts&#10;PRICE&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/price/price.component.html&#10;pri&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/price/price.component.html&#10;mode&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/Models.ts&#10;edit&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/editor/editor.component.ts&#10;detail&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-details/order-details.component.ts&#10;editor&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/editor/editor.component.html&#10;Edit image&#9;null&#9;null&#10;hea&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/header/header.component.html&#10;headers&#9;null&#9;null&#10;display&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;displau&#9;null&#9;null&#10;new or&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/new-order/new-order.component.ts&#10;sign&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/signup/signup.component.ts&#10;footer&#9;null&#9;null&#10;style&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/styles.css&#10;helper&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/helper.service.spec.ts&#10;sty&#9;null&#9;null&#10;DIS&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;app&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.component.html&#10;server&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/server.service.ts&#10;varia&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/appVariables.service.ts&#10;dis&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;order&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-details/order-details.component.spec.ts&#10;grid&#9;null&#9;null&#10;log&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/login/login.component.ts&#10;mod&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts&#10;App&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/appVariables.service.ts&#10;APPC&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.component.ts&#10;cli&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/.angular-cli.json&#10;auth&#9;null&#9;null&#10;inde&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/index.html&#10;HEA&#9;null&#9;null&#10;app.modu&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -354,18 +501,19 @@
       <option name="presentableId" value="Default" />
       <updated>1513492559974</updated>
       <workItem from="1513492561573" duration="13642000" />
-      <workItem from="1513510344546" duration="175679000" />
+      <workItem from="1513510344546" duration="179159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189321000" />
+    <option name="totallyTimeSpent" value="192801000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-7" y="0" width="1475" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14752372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19485039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -373,7 +521,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23925027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31737193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -395,36 +543,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/helper.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#56#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/auth.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#56#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/order-details/order-details.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#73#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/timeline/timeline.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -529,16 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/order-display/order-display.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -593,24 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <marker date="1514048798096" expanded="true" signature="2774:2788" ph="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/timeline/timeline.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/image-edit/image-edit.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
@@ -629,16 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/header/header.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/homepage/homepage.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -647,28 +727,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/header/header.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/header/header.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -804,16 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/image-edit/image-edit.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bs-config.cli.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -827,7 +879,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -845,7 +897,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -858,10 +910,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/image-edit/image-edit.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#86#0" expanded="false" />
+            <element signature="e#352#400#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/editor/editor.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/editor/editor.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/timeline/timeline.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <marker date="1514108572305" expanded="true" signature="2771:2785" ph="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/header/header.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/header/header.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/header/header.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        <state relative-caret-position="374">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding />
         </state>
       </provider>

@@ -5,7 +5,7 @@ import {CartisanOrder, ImageTagArray, OrderImageContainer} from "../Models";
 import {ActivatedRoute} from "@angular/router";
 
 
-import $ from 'jquery';
+// import $ from 'jquery';
 
 import {HelperService} from "../helper.service";
 import {Observable} from "rxjs/Observable";
@@ -108,10 +108,10 @@ export class ImageEditComponent implements OnInit,AfterViewInit {
   }
   ngAfterViewInit(): void {
     console.log(111111111111111111111);
-    $(function () {
-      console.log($('[data-toggle="tooltip"]'));
-
-    })
+    // $(function () {
+    //   console.log($('[data-toggle="tooltip"]'));
+    //
+    // })
   }
 
   ngOnInit() {

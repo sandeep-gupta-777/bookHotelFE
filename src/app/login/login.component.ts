@@ -23,7 +23,7 @@ export class LoginComponent implements OnInit {
 
   constructor(private helperService:HelperService,
               private serverService:ServerService,
-              private appVariable:AppVariablesService,
+              public appVariable:AppVariablesService,
               private authService:AuthService,
               private router:Router,private activatedRoute:ActivatedRoute) {
   }

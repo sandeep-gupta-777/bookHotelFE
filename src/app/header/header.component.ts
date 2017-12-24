@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
 
   keyword;
   constructor(public helperService: HelperService,
-              private authService: AuthService,
+              public authService: AuthService,
               private appVariablesService: AppVariablesService,
               private serverService: ServerService,
               private activatedRoute: ActivatedRoute,

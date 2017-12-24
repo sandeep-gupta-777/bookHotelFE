@@ -56,7 +56,7 @@ const routes:Route[] = [
     OrderDetailsComponent,
     HomepageComponent,
     ImageEditComponent,
-    // TimelineComponent,
+    TimelineComponent,
     EditorComponent,
     NewOrderComponent,
     PriceComponent,
