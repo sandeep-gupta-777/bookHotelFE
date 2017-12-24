@@ -1,0 +1,53 @@
+#circle {
+  width: 25px;
+  height: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: red;
+}
+.border1{
+  border:1px solid red
+}
+
+.container {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#imageT:hover{
+  opacity: .5;
+}
+
+.semiTransparent{
+  opacity: .5;
+}
+
+
+input.ng-invalid.ng-touched{
+  border: 1px solid red;
+}

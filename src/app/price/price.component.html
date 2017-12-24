@@ -1,0 +1,43 @@
+<div class="container bg-blackish-custom p-3 border" *ngIf="isItWorkshopRole()">
+
+  <div class="row">
+    <div class="col-12">
+      <h3 class="mr-sm-2 text-white" for="priceEstimationMode">Price Estimation</h3>
+    </div>
+
+    <!--estimation input starts-->
+    <div class="col-md-4">
+      <div class="form-inline p-1">
+        <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="priceEstimationMode"
+                [(ngModel)]="orderPriceEstimationMode" [value]="orderPriceEstimationMode" (ngModelChange)="modeChanged($event)">
+          <option selected>Choose...</option>
+          <option value="0">Estimate all in one place</option>
+          <option value="1">Estimate for each picture</option>
+        </select>
+      </div>
+    </div>
+    <!--estimation input starts-->
+
+    <!--orderTotalPricerice input starts-->
+    <div class="col-md-4">
+      <div *ngIf="shouldShowPricePanel()" class="form-inline p-1 d-flex justify-content-between ">
+        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+          <button class="btn border bg-blackish-custom"><i class="fa fa-rupee"></i></button>
+          <input type="number" class="form-control" placeholder="Price" [(ngModel)]="tempPrice" (ngModelChange)="priceChanged($event)">
+        </div>
+      </div>
+    </div>
+    <!--orderTotalPricerice input ends-->
+
+    <!--ToorderTotalPricerice  Starts-->
+    <div class="col-md-4 col-12">
+      <div>
+        <h2 class="text-white">Total: <span class="badge badge-secondary">₹ {{calculateTotalPrice()}}</span></h2>
+      </div>
+    </div>
+  </div>
+  <!--ToorderTotalPricerice  ends-->
+  <div class="col-12 d-flex justify-content-end">
+    <button class="btn btn-light" (click)="saveOrderInServer()">Save</button>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a  (click)='homeClicked()' class="navbar-brand" style="font-weight: bold; font-size: 30px;color: white">Cartisan</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--following line will make all links to push to left of
+    logo/brand. so use ml-auto to push it to extream right
+    -->
+    <div class="collapse navbar-collapse" id="menu">
+
+      <ul class="navbar-nav ml-auto">
+
+        <li class="navbar-items" *ngIf="helperService.isLoggedIn()">
+          <a  (click)="orderClicked()" class="nav-link">New Order</a>
+        </li>
+        <li class="navbar-items" *ngIf="helperService.isLoggedIn()">
+          <a  [routerLink]="appVariablesService.FRONTEND_ALL_ORDERS_URL"
+              (click)="searchPerformed('')"
+              data-toggle="tooltip" title="All orders!"
+              class="nav-link"> All orders</a>
+        </li>
+        <li  class="navbar-items">
+          <a *ngIf="!authService.isUserLoggedIn()" class="nav-link" (click)="goToLoginPage()">Login</a>
+          <a *ngIf="authService.isUserLoggedIn()" class="nav-link" (click)="logout()">Logout</a>
+        </li>
+
+        <form class="form-inline" *ngIf="helperService.isLoggedIn()">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" [(ngModel)]="keyword" name="keyword"  aria-label="Search" #f>
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit" (click)="searchPerformed(f.value)"><i class="fa fa-search"></i></button>
+        </form>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<br><br><br><br>
+<!--<div></div>-->
+

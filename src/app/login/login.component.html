@@ -1,0 +1,90 @@
+
+
+<div class="container bg-white">
+
+
+  <!--TODO: find a better way to center text below-->
+  <div class="row border bg-blackish-custom" style="height: 55px">
+    <p class="text-white pl-3 px-0 mx-0 display-1 mt-2  " style="font-size: 30px !important;">Welcome to Cartisan!
+  </div>
+
+  <div class="row p-3 d-flex justify-content-center">
+    <div class="col-md-6 col-12 px-0">
+
+      <div class="container py-4 mx-0 p-sm-4 border-blackish-custom">
+        <!--TODO:for some reason border-dask is not working abo1ve so using style-->
+
+        <p class="text-center text-dark lead" style="font-size: 35px; font-weight: bold">Login</p>
+        <!--social buttons start1-->
+        <div class="row">
+          <div class="col-4 horizontal-center">
+            <button href="/auth/facebook" (click)="makeGetRequestForFaceBook()" class="btn bg-blackish-custom btn-block"
+                    role="button" type="submit"><i class="fa fa-facebook"></i></button>
+          </div>
+          <div class="col-4 horizontal-center">
+            <button href="/auth/facebook" (click)="makeGetRequestForFaceBook()" class="btn  bg-blackish-custom btn-block"
+                    role="button" type="submit"><i class="fa fa-google"></i></button>
+          </div>
+          <div class="col-4 horizontal-center">
+            <button href="/auth/facebook" (click)="makeGetRequestForFaceBook()" class="btn  bg-blackish-custom btn-block"
+                    role="button" type="submit"><i class="fa fa-twitter"></i></button>
+          </div>
+        </div>
+        <!--social buttons end-->
+
+        <!--horizontal bar start-->
+        <div class="container-fluid mx-0 px-0" style="width: 100%">
+          <div class="row vertical-center text-blackish text-center p-0">
+            <div class="col-5 ">
+              <hr class="borderHR">
+            </div>
+            <div class="col-2 py-1"> Or</div>
+            <div class="col-5">
+              <hr class="borderHR">
+            </div>
+          </div>
+        </div>
+        <!--horizontal bar end1-->
+
+
+        <!--login form bar start-->
+
+        <form (ngSubmit)="onSubmit()" #f="ngForm">
+          <div class="row ">
+
+            <div class="input-group">
+              <span class="input-group-addon bg-blackish-custom"><i class="fa  fa-user"></i></span>
+              <!--<input type="text" class="form-control" name="username" placeholder="Email or Username">-->
+              <input type="text" id="username" class="form-control form-control-lg" ngModel name="email" email required
+                     placeholder="Email or Username">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon bg-blackish-custom"><i class="fa fa-lock"></i></span>
+              <!--<input type="text" class="form-control" name="username" placeholder="Password">-->
+              <input type="password" id="password" class="form-control form-control-lg" ngModel name="password" required
+                     placeholder="Password">
+
+            </div>
+            <div *ngIf="showErrorMessage"  class="text-blackish">{{helper_message}}</div>
+
+            <button class="btn  bg-blackish-custom btn-block my-4 mx-3 text-white"  type="submit"><i class="fa fa-sign-in"></i> Login
+            </button>
+          </div>
+        </form>
+        <!--login form bar end1-->
+        <div class="row px-1">
+          <div ><b>Already have an account? Click <a [routerLink]="'/'+appVariable.FRONTEND_SIGNUP_PAGE_URL"
+                                                    style="color: #154545">here to Signup</a></b></div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+</div>
+<div>q</div>
+<div>q</div>
+<div>q</div>
+<div>q</div>

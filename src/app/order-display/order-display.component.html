@@ -1,0 +1,29 @@
+<div class="container bg-white">
+
+  <!--TODO: find a better way to center text below-->
+  <div class="row border bg-blackish-custom" style="height: 55px">
+    <p class="text-white pl-3 display-1 mt-2  " style="font-size: 30px !important;">All orders: {{cartisanOrderArray && cartisanOrderArray.length}}</p>
+  </div>
+
+  <div class="row">
+    <h1 *ngIf="cartisanOrderArray && cartisanOrderArray.length==0" class="display-1 px-3 text-center">No Results</h1>
+    <div class="col-md-4 col-12 p-2" *ngFor="let cartisanOrder of cartisanOrderArray">
+
+      <div class="card" style="width: 20rem;border-top:2px solid #154545;"  >
+        <img class="card-img-top"
+             [src]="cartisanOrder.orderImageContainersArray[0]?awsBucketURL+cartisanOrder.orderImageContainersArray[0].orderImageURL:defaultImageURL" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title" style="cursor: pointer" (click)="orderClicked(cartisanOrder)">{{cartisanOrder.orderTitle}}</h4>
+          <p class="card-text">{{cartisanOrder.orderText}}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">{{'Model: '+cartisanOrder.orderModelName}}</li>
+          <li class="list-group-item">Estimated Price: {{ (cartisanOrder && cartisanOrder.orderTotalPrice)?cartisanOrder.orderTotalPrice:"Not estimated"}}</li>
+          <li class="list-group-item">{{'Assigned To: '+ cartisanOrder.orderAssignedTo_fullName}}</li>
+          <li class="list-group-item">Date:  {{cartisanOrder.orderDate|date}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+

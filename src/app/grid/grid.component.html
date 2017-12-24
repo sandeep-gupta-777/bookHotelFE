@@ -1,0 +1,13 @@
+
+
+<div class="container pt-3 mt-3 pr-0 bg-blackish-custom" *ngIf="cartisanOrder && cartisanOrder.orderImageContainersArray && cartisanOrder.orderImageContainersArray.length>0">
+  <div class="d-flex justify-content-between">
+    <p class="text-white lead">Uploaded images: {{cartisanOrder.orderImageContainersArray.length}}</p>
+    <button *ngIf="!isItImageEditComponent" (click)="goToImageEditPage()" style="cursor: pointer" id="editButton" class="btn bg-white text-blackish mb-2">Image detail</button>
+  </div>
+  <div class="row border d-flex flex-wrap mx-1">
+    <div class="col-xs-12 col-md-3 py-3" *ngFor="let OrderImageContainer of cartisanOrder.orderImageContainersArray;index as i">
+      <img class="img-fluid img-thumbnail" (click)="imageClicked(i)" [src]='"https://s3-us-west-2.amazonaws.com/photogridsandeep/"+ OrderImageContainer.orderImageURL'>
+    </div>
+  </div>
+</div>

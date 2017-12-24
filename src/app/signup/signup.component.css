@@ -1,0 +1,7 @@
+.borderHR{
+  border: 1px solid #154545;
+}
+
+input.ng-invalid.ng-touched{
+  border: 1px solid red;
+}

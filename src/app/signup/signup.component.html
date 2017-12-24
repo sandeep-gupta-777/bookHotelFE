@@ -1,0 +1,119 @@
+
+
+
+<div class="container bg-white">
+
+
+  <!--TODO: find a better way to center text below-->
+  <div class="row border bg-blackish-custom" style="height: 55px">
+    <p class="text-white pl-3 display-1 mt-2  " style="font-size: 30px !important;">Welcome to Cartisan!
+  </div>
+
+  <div class="row p-3 d-flex justify-content-center">
+    <div class="col-md-6 col-12 px-0">
+
+      <div class="container py-4 mx-0 p-sm-4 border-blackish-custom" >
+        <!--for some reason border-dark is not working above, so using style-->
+
+        <p class="text-center text-dark lead" style="font-size: 35px; font-weight: bold">Signup</p>
+        <!--social buttons start-->
+        <div class="row">
+          <div class="col-4 horizontal-center">
+            <button href="/auth/facebook" (click)="makeGetRequestForFaceBook()" class="btn bg-blackish-custom btn-block"
+                    role="button" type="submit"><i class="fa fa-facebook"></i></button>
+          </div>
+          <div class="col-4 horizontal-center">
+            <button href="/auth/facebook" (click)="makeGetRequestForFaceBook()" class="btn  bg-blackish-custom btn-block"
+                    role="button" type="submit"><i class="fa fa-google"></i></button>
+          </div>
+          <div class="col-4 horizontal-center">
+            <button href="/auth/facebook" (click)="makeGetRequestForFaceBook()" class="btn  bg-blackish-custom btn-block"
+                    role="button" type="submit"><i class="fa fa-twitter"></i></button>
+          </div>
+        </div>
+        <!--social buttons end-->
+
+        <!--horizontal bar start-->
+        <div class="container-fluid mx-0 px-0" style="width: 100%">
+          <div class="row vertical-center text-blackish text-center p-0">
+            <div class="col-5 ">
+              <hr class="border-blackish-custom">
+            </div>
+            <div class="col-2 py-1"> Or</div>
+            <div class="col-5">
+              <hr class="border-blackish-custom">
+            </div>
+          </div>
+        </div>
+        <!--horizontal bar end1-->
+
+
+        <!--Signup form bar start-->
+
+        <form (ngSubmit)="onSubmit()" #f="ngForm">
+          <div class="row ">
+            <!--<p>Register to get started. Its free!</p>-->
+            <div class="input-group">
+              <span class="input-group-addon bg-blackish-custom"><i class="fa  fa-user"></i></span>
+              <input type="text"  class="form-control form-control-lg" ngModel name="full_name" required
+                     placeholder="Full name">
+            </div>
+
+
+
+            <div class="input-group">
+              <span class="input-group-addon bg-blackish-custom"><i class="fa  fa-envelope"></i></span>
+              <!--<input type="text" class="form-control" name="username" placeholder="Email or Username">-->
+              <input type="text" class="form-control form-control-lg" ngModel name="email" email required
+                     placeholder="Email">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon bg-blackish-custom"><i class="fa  fa-mobile"></i></span>
+              <input type="number"  class="form-control form-control-lg" maxlength="10" minlength="10" ngModel name="userMobileNumber" required
+
+                     placeholder="Mobile Number">
+            </div>
+
+
+
+            <div class="input-group">
+              <span class="input-group-addon bg-blackish-custom"><i class="fa fa-lock"></i></span>
+              <input type="password" id="password" class="form-control form-control-lg" ngModel name="password" required
+                     password  placeholder="Password">
+
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon bg-blackish-custom"><i class="fa fa-lock"></i></span>
+              <input type="password"  class="form-control form-control-lg" ngModel name="confirm_password" password required
+                     placeholder="Confirm password">
+            </div>
+
+            <div class="input-group">
+              <span class="input-group-addon bg-blackish-custom" ><i class="fa fa-hand-o-up"></i></span>
+              <select id="gender" class="form-control form-control-lg" style="height: 45px" ngModel  name="role" required> Select Role
+                <option selected disabled>Choose one</option>
+                <option value="car_repain_customer">I want to get my car repaired</option>
+                <option value="workshop_owner">I am workshop owner</option>
+              </select>
+            </div>
+
+
+            <div *ngIf="showErrorMessage" class="text-blackish">{{helper_message}}</div>
+
+            <button class="btn  bg-blackish-custom btn-block my-4 text-white" type="submit"><i class="fa fa-sign-in"></i> Sign up</button>
+          </div>
+        </form>
+        <!--Signup form bar end1-->
+
+        <div class="row">
+          <div><b>Already have an account? Click <a [routerLink]=" '/' + appVariablesService.FRONTEND_LOGIN_PAGE_URL"
+                                                    style="color: #154545">here to Login</a></b></div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+</div>

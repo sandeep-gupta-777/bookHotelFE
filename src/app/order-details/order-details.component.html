@@ -1,0 +1,44 @@
+<div class="container" style="background-color: rgb(38,66,67)">
+
+  <!--TODO: find a better way to center text below-->
+  <div class="row border " style="height: 55px">
+    <p  class="text-white pl-3 display-1 mt-2  " style="font-size: 30px !important;">Order for
+      <b>{{currentOrder && currentOrder.orderModelName}}</b></p>
+  </div>
+
+  <div class="row text-dark bg-white py-4 d-flex justify-content-center" *ngIf="currentOrder">
+
+    <div class="border">
+      <div class="col-12 "><span class="font-weight-bold">Order id: </span>{{ currentOrder._id}}</div>
+      <div class="col-12 "><span class="font-weight-bold">Requested By: </span>{{currentOrder.orderAssignedBy_fullName}}
+      </div>
+      <div class="col-12 "><span class="font-weight-bold">Car Model: </span>{{currentOrder.orderModelName}}</div>
+      <div class="col-12 "><span class="font-weight-bold">Order Date: </span>{{ currentOrder.orderDate|date}}</div>
+      <div class="col-12 "><span class="font-weight-bold">Order Title:</span>{{currentOrder.orderTitle}}</div>
+      <div class="col-12 "><span class="font-weight-bold">Order Address: </span>{{ currentOrder.orderAddress}}</div>
+      <div class="col-12 "><span class="font-weight-bold">Order Assigned To: </span>{{currentOrder.orderAssignedTo_fullName}}
+      </div>
+      <div class="col-12 "><span class="font-weight-bold">Order Estimated Price: </span>{{currentOrder.orderTotalPrice?currentOrder.orderTotalPrice:"Not assigned"}}
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!--<div class="container bg-white pb-4 d-none d-md-block" style="width :100%;">-->
+  <!--<div class="row">-->
+    <!--<div class="col-12">-->
+      <!--<app-timeline></app-timeline>-->
+
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+<!--<br>-->
+
+<app-price [currentOrderObservable]="currentOrderObservable" ></app-price>
+
+<app-grid [cartisanOrder]="currentOrder?currentOrder:{}"></app-grid>
+
+
