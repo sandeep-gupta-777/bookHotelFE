@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20e3753c-7f82-429a-ba94-c3ad39ac65a9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.674f50d287a8c48dc19b.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.912ec66d7572ff821749.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.af7ae505a9eed503f8b8.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.b06871f281fee6b241d6.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.fee66e712a8a08eef580.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/inline.8e03f510c2f6c8a5d377.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/main.56f6d5b471729ac625cf.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/polyfills.00665122207b950b3e2d.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts.fafe99f93572ced87f04.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles.488543dc15e48de712f4.bundle.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/appVariables.service.ts" afterPath="$PROJECT_DIR$/src/app/appVariables.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/grid/grid.component.ts" afterPath="$PROJECT_DIR$/src/app/grid/grid.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/header/header.component.html" afterPath="$PROJECT_DIR$/src/app/header/header.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/helper.service.ts" afterPath="$PROJECT_DIR$/src/app/helper.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/image-edit/image-edit.component.html" afterPath="$PROJECT_DIR$/src/app/image-edit/image-edit.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/image-edit/image-edit.component.ts" afterPath="$PROJECT_DIR$/src/app/image-edit/image-edit.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/new-order/new-order.component.ts" afterPath="$PROJECT_DIR$/src/app/new-order/new-order.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/order-details/order-details.component.html" afterPath="$PROJECT_DIR$/src/app/order-details/order-details.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/order-display/order-display.component.html" afterPath="$PROJECT_DIR$/src/app/order-display/order-display.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/price/price.component.html" afterPath="$PROJECT_DIR$/src/app/price/price.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/price/price.component.ts" afterPath="$PROJECT_DIR$/src/app/price/price.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/signup/signup.component.ts" afterPath="$PROJECT_DIR$/src/app/signup/signup.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -43,11 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="grid.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/grid/grid.component.html">
+      <file leaf-file-name="appVariables.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/appVariables.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="33" column="70" lean-forward="true" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -77,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image-edit.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="image-edit.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/image-edit/image-edit.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+            <state relative-caret-position="427">
+              <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -89,14 +66,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image-edit.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="image-edit.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/image-edit/image-edit.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="133" column="31" lean-forward="true" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#86#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="485">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,7 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jquery</find>
       <find>editor.component</find>
       <find>app-timeline</find>
       <find>he</find>
@@ -139,9 +113,10 @@
       <find>save</find>
       <find>worksho</find>
       <find>Assigned</find>
-      <find>Assigned to</find>
-      <find>no ima</find>
       <find>currentOrderObservable</find>
+      <find>no ima</find>
+      <find>Assigned to</find>
+      <find>ImageEditComponent</find>
     </findStrings>
     <replaceStrings>
       <replace>showMessageForGivenTime</replace>
@@ -194,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/app/header/header.component.ts" />
         <option value="$PROJECT_DIR$/src/app/login/login.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/appVariables.service.ts" />
         <option value="$PROJECT_DIR$/src/app/new-order/new-order.component.ts" />
         <option value="$PROJECT_DIR$/src/app/signup/signup.component.ts" />
         <option value="$PROJECT_DIR$/src/app/price/price.component.ts" />
@@ -203,9 +177,10 @@
         <option value="$PROJECT_DIR$/src/app/order-display/order-display.component.html" />
         <option value="$PROJECT_DIR$/src/app/order-details/order-details.component.html" />
         <option value="$PROJECT_DIR$/src/app/price/price.component.html" />
-        <option value="$PROJECT_DIR$/src/app/image-edit/image-edit.component.ts" />
         <option value="$PROJECT_DIR$/src/app/grid/grid.component.ts" />
         <option value="$PROJECT_DIR$/src/app/image-edit/image-edit.component.html" />
+        <option value="$PROJECT_DIR$/src/app/appVariables.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/image-edit/image-edit.component.ts" />
       </list>
     </option>
   </component>
@@ -721,7 +696,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.tslint" value="C:\Users\sandgup3\Desktop\NodeBook\cartisan_Angular5\node_modules\tslint" />
-    <property name="SearchEverywhereHistoryKey" value="grid&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/grid/grid.component.html&#10;image-ed&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/image-edit/image-edit.component.ts&#10;editor&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/editor/editor.component.ts&#10;price&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/price/price.component.ts&#10;imagee&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/image-edit/image-edit.component.ts&#10;header&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/header/header.component.html&#10;helper&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/helper.service.spec.ts&#10;logi&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/login/login.component.ts&#10;sign&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/signup/signup.component.spec.ts&#10;appva&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/appVariables.service.ts&#10;login&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/login/login.component.ts&#10;hea&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/header/header.component.ts&#10;appVari&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/appVariables.service.ts&#10;appser&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/appVariables.service.ts&#10;pack&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/package.json&#10;module&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts&#10;image&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/image-edit/image-edit.component.ts&#10;index.h&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/index.html&#10;index&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/node_modules/protractor/built/index.d.ts&#10;displa&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;modu&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts&#10;model&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/Models.ts&#10;PRICE&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/price/price.component.html&#10;pri&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/price/price.component.html&#10;mode&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/Models.ts&#10;edit&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/editor/editor.component.ts&#10;detail&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-details/order-details.component.ts&#10;Edit image&#9;null&#9;null&#10;headers&#9;null&#9;null&#10;display&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;displau&#9;null&#9;null&#10;new or&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/new-order/new-order.component.ts&#10;footer&#9;null&#9;null&#10;style&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/styles.css&#10;sty&#9;null&#9;null&#10;DIS&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;app&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.component.html&#10;server&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/server.service.ts&#10;varia&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/appVariables.service.ts&#10;dis&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;order&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-details/order-details.component.spec.ts&#10;log&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/login/login.component.ts&#10;mod&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts&#10;App&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/appVariables.service.ts&#10;APPC&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.component.ts&#10;cli&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/.angular-cli.json&#10;auth&#9;null&#9;null&#10;inde&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/index.html&#10;HEA&#9;null&#9;null&#10;app.modu&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts" />
+    <property name="SearchEverywhereHistoryKey" value="appva&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/appVariables.service.ts&#10;grid&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/grid/grid.component.html&#10;image-ed&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/image-edit/image-edit.component.ts&#10;editor&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/editor/editor.component.ts&#10;price&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/price/price.component.ts&#10;imagee&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/image-edit/image-edit.component.ts&#10;header&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/header/header.component.html&#10;helper&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/helper.service.spec.ts&#10;logi&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/login/login.component.ts&#10;sign&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/signup/signup.component.spec.ts&#10;login&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/login/login.component.ts&#10;hea&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/header/header.component.ts&#10;appVari&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/appVariables.service.ts&#10;appser&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/appVariables.service.ts&#10;pack&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/package.json&#10;module&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts&#10;image&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/image-edit/image-edit.component.ts&#10;index.h&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/index.html&#10;index&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/node_modules/protractor/built/index.d.ts&#10;displa&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;modu&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts&#10;model&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/Models.ts&#10;PRICE&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/price/price.component.html&#10;pri&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/price/price.component.html&#10;mode&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/Models.ts&#10;edit&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/editor/editor.component.ts&#10;detail&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-details/order-details.component.ts&#10;Edit image&#9;null&#9;null&#10;headers&#9;null&#9;null&#10;display&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;displau&#9;null&#9;null&#10;new or&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/new-order/new-order.component.ts&#10;footer&#9;null&#9;null&#10;style&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/styles.css&#10;sty&#9;null&#9;null&#10;DIS&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;app&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.component.html&#10;server&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/server.service.ts&#10;varia&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/appVariables.service.ts&#10;dis&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-display/order-display.component.html&#10;order&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/order-details/order-details.component.spec.ts&#10;log&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/login/login.component.ts&#10;mod&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts&#10;App&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/appVariables.service.ts&#10;APPC&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.component.ts&#10;cli&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/.angular-cli.json&#10;auth&#9;null&#9;null&#10;inde&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/index.html&#10;HEA&#9;null&#9;null&#10;app.modu&#9;FILE&#9;file://C:/Users/sandgup3/Desktop/NodeBook/cartisan_Angular5/src/app/app.module.ts" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -824,12 +799,12 @@
       <workItem from="1513492561573" duration="13642000" />
       <workItem from="1513510344546" duration="182353000" />
       <workItem from="1514190415541" duration="19000" />
-      <workItem from="1514269906723" duration="9753000" />
+      <workItem from="1514269906723" duration="10118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205767000" />
+    <option name="totallyTimeSpent" value="206132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-189" width="1936" height="1066" extended-state="6" />
@@ -844,7 +819,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10253583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31973538" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1113,14 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/appVariables.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/server.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="548">
@@ -1255,16 +1222,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/image-edit/image-edit.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="133" column="31" lean-forward="true" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/grid/grid.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1295,11 +1252,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/image-edit/image-edit.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+        <state relative-caret-position="427">
+          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/appVariables.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="70" lean-forward="true" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/image-edit/image-edit.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

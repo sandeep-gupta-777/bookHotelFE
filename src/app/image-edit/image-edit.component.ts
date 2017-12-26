@@ -32,7 +32,7 @@ export class ImageEditComponent implements OnInit,AfterViewInit {
 
   constructor(private serverService: ServerService,
               private appVariablesService: AppVariablesService,
-              private helperService: HelperService,
+              public helperService: HelperService,
               private activatedRoute: ActivatedRoute) {
   }
 
