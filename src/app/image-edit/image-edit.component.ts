@@ -57,6 +57,7 @@ export class ImageEditComponent implements OnInit,AfterViewInit {
   }
 
   editedImageChanged(j: number) {
+    console.log('edited image changed');
     this.currentOrder.orderImageContainersArray[this.currentImageContainerIndexBeingEdited].orderImageTagArray = this.elementArray;
     this.elementArray = this.currentOrder.orderImageContainersArray[j].orderImageTagArray;
     this.currentImageContainerBeingEdited = this.currentOrder.orderImageContainersArray[j];
@@ -85,6 +86,7 @@ export class ImageEditComponent implements OnInit,AfterViewInit {
   }
 
   addNewTagToImage(event) {
+    if(this.helperService.isItWorkshopRole()) return;
     this.makeImageSemiTransparent = true;
     console.log(event);
     this.showDiv = true;

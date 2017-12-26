@@ -19,6 +19,7 @@
         <ul class="list-group list-group-flush">
           <li class="list-group-item">{{'Model: '+cartisanOrder.orderModelName}}</li>
           <li class="list-group-item">Estimated Price: {{ (cartisanOrder && cartisanOrder.orderTotalPrice)?cartisanOrder.orderTotalPrice:"Not estimated"}}</li>
+          <li class="list-group-item">{{'Requested By: '+ cartisanOrder.orderAssignedBy_fullName}}</li>
           <li class="list-group-item">{{'Assigned To: '+ cartisanOrder.orderAssignedTo_fullName}}</li>
           <li class="list-group-item">Date:  {{cartisanOrder.orderDate|date}}</li>
         </ul>

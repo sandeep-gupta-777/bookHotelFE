@@ -113,6 +113,7 @@ export class PriceComponent implements OnInit,OnChanges {
 
     this.serverService.makePostRequest(this.appVariablesService.BACKEND_ORDER_SAVE_URL, this.cartisanOrder).subscribe((value) => {
       console.log(value);
+      alert('saved!');
     });
   }
 

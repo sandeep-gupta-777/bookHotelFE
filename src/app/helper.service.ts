@@ -35,6 +35,8 @@ export class HelperService {
     alert('Not Implemented');
   }
 
-
+  isItWorkshopRole(){
+    return localStorage.getItem('userRole')==="workshop_owner";
+  }
 
 }

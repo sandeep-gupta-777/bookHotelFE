@@ -13,7 +13,7 @@
 
       <ul class="navbar-nav ml-auto">
 
-        <li class="navbar-items" *ngIf="helperService.isLoggedIn()">
+        <li class="navbar-items" *ngIf="helperService.isLoggedIn() && !helperService.isItWorkshopRole()" >
           <a  (click)="orderClicked()" class="nav-link">New Order</a>
         </li>
         <li class="navbar-items" *ngIf="helperService.isLoggedIn()">
@@ -38,5 +38,4 @@
 </nav>
 
 <br><br><br><br>
-<!--<div></div>-->
 

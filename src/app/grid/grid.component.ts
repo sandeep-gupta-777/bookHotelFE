@@ -10,27 +10,32 @@ import {AppVariablesService} from "../appVariables.service";
 })
 export class GridComponent implements OnInit {
 
-  @Input() cartisanOrder:CartisanOrder  = {orderImageContainersArray:[]};
-  @Output() imageDetailEvent:EventEmitter<number> = new EventEmitter<number>();
-  constructor(
-    private activatedRoute:ActivatedRoute,
-    private router:Router,
-    private appVariablesService:AppVariablesService
-  ) {}
+  @Input() cartisanOrder: CartisanOrder = {orderImageContainersArray: []};
+  @Output() imageDetailEvent: EventEmitter<number> = new EventEmitter<number>();
 
-  isItImageEditComponent:false;
+  constructor(private activatedRoute: ActivatedRoute,
+              private router: Router,
+              private appVariablesService: AppVariablesService) {
+  }
+
+  isItImageEditComponent: false;
+
   ngOnInit() {
+    // console.log('===================================================================================================================================');
     console.log('grid service init');
     console.log(this.cartisanOrder);
-    this.activatedRoute.data.subscribe((data:any)=>{this.isItImageEditComponent=data.isItImageEditComponent});//TODO:data:Data will give type error. Find out why?
+    this.activatedRoute.data.subscribe((data: any) => {
+      this.isItImageEditComponent = data.isItImageEditComponent
+    });//TODO:data:Data will give type error. Find out why?
   }
-  goToImageEditPage(){
+
+  goToImageEditPage() {
     this.router.navigate([this.appVariablesService.FRONTEND_ORDER_IMAGE_EDIT_PAGE_URL(this.cartisanOrder._id)]);
   }
 
-  imageClicked(i:number){
+  imageClicked(i: number) {
     console.log('');
-    if(!this.isItImageEditComponent){
+    if (!this.isItImageEditComponent) {
       return;
     }
     this.imageDetailEvent.emit(i);

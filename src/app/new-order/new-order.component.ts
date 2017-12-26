@@ -66,9 +66,9 @@ export class NewOrderComponent implements OnInit {
     //get the total amount of files attached to the file input.
     let fileCount: number = inputEl.files.length;
     //create a new fromdata instance
-    let formData = new FormData();
+    let formData:any = new FormData();
     //check if the filecount is greater than zero, to be sure a file was selected.
-
+    console.log('upload method');
     if(fileCount===0){
       this.showMessageForGivenTime("Please choose a file first");
       return;
@@ -76,7 +76,11 @@ export class NewOrderComponent implements OnInit {
     if (fileCount > 0) { // a file was selected
       //append the key name 'photo' with the first file in the element
       formData.append('photo', inputEl.files.item(0));
-      console.log(formData);
+      // console.log(formData);
+      let temp: any  = formData.entries();
+      for (let key of formData.entries()) {
+        console.log(key[0] + ', ' + key[1]);
+      }
         this.showMessageForGivenTime("Uploading image...");
       //call the angular http method
       this.httpClient
@@ -90,7 +94,7 @@ export class NewOrderComponent implements OnInit {
           this.currentCartisanOrder.orderImageContainersArray.push({orderImageURL:success.href});
           console.log(this.currentCartisanOrder);
         },
-        (error) => alert(error))
+        (error) => {alert(error);console.log(error)})
     }
   }
 

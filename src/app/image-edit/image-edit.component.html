@@ -7,13 +7,13 @@
 
     <!-- Links -->
     <ul class="navbar-nav">
-      <li class="nav-item">
+      <li class="nav-item" *ngIf="!helperService.isItWorkshopRole()">
         <a class="nav-link" style="cursor: pointer" (click)="saveTagsToServer()">Save</a>
       </li>
       <!--<li class="nav-item">-->
         <!--<a class="nav-link" (click)="saveTagsToServer()">Tag</a>-->
       <!--</li>-->
-      <li class="nav-item">
+      <li class="nav-item" *ngIf="!helperService.isItWorkshopRole()">
         <a class="nav-link" style="cursor: pointer" (click)="UndoTag()">Undo Tag</a>
       </li>
       <!--<li class="nav-item">-->
@@ -58,6 +58,8 @@
 </div>
 
 <p class="lead text-white text-center bg-blackish-custom">{{ elementArray.length===0? "No Image Tags" :  (elementArray.length + " Image Tag(s)") }}</p>
+<p *ngIf="helperService.isLoggedIn() && !helperService.isItWorkshopRole()"
+  class="lead text-white text-center bg-blackish-custom"><i class="fa fa-rupee"></i>{{ currentOrder.orderImageContainersArray[currentImageContainerIndexBeingEdited].orderImagePrice ? currentOrder.orderImageContainersArray[currentImageContainerIndexBeingEdited].orderImagePrice: " Not specified"}}</p>
 <app-price [currentOrderObservable]="currentOrderObservable" [currentImageContainerIndexBeingEdited]="currentImageContainerIndexBeingEdited"></app-price>
 
 <app-grid [cartisanOrder]="currentOrder" (imageDetailEvent) = "editedImageChanged($event)"></app-grid>

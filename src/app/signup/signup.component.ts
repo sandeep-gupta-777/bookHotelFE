@@ -42,7 +42,8 @@ export class SignupComponent implements OnInit {
       userFullName:this.form.value.full_name,
       userPassword:this.form.value.password,
       userEmail:this.form.value.email,
-      userRole:this.form.role
+      userRole:this.form.value.role,
+      userMobileNumber:this.form.userMobileNumber
     };
 
 
@@ -62,7 +63,7 @@ export class SignupComponent implements OnInit {
         const user:CartisanUser = {
           userFullName: this.form.value.full_name,
           userEmail:this.form.value.email,
-          userPassword:this.form.value.password
+          userPassword:this.form.value.password,
         };//TODO: fill all the details
 
         //LOGIN STARTS
@@ -72,6 +73,8 @@ export class SignupComponent implements OnInit {
             localStorage.setItem('token',data.token);
             localStorage.setItem(this.appVariablesService.LOCALSTORAGE_user_id,data.user._id);
             localStorage.setItem('fullName',data.user.userFullName);
+            localStorage.setItem('fullName',data.user.userFullName);
+            localStorage.setItem('userRole',data.user.userRole);
             this.router.navigateByUrl('/');
             // this.router.navigate([this.appVariablesService.previousSRPURL]);
             // this.global.setLoggedInUserDetails(user);//TODO: in
