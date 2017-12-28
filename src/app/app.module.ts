@@ -26,53 +26,55 @@ import { TimelineComponent } from './timeline/timeline.component';
 import { EditorComponent } from './editor/editor.component';
 import { NewOrderComponent } from './new-order/new-order.component';
 import { PriceComponent } from './price/price.component';
+import { Grid1Component } from './grid1/grid1.component';
 
-const routes:Route[] = [
-  {path:'login', component: LoginComponent},
-  {path:'signup', component: SignupComponent},
-  {path:'neworder', component: NewOrderComponent, canActivate:[RouterGaurdServiceService]},
-  {path:'neworder/:_id/imageEdit', component: ImageEditComponent,canActivate:[RouterGaurdServiceService], data:{isItImageEditComponent:true}},
-  {path:'allorders', component: OrderDisplayComponent,canActivate:[RouterGaurdServiceService]},//TODO
-  {path:'orderdetail/:_id', component: OrderDetailsComponent,canActivate:[RouterGaurdServiceService], data:{isItOrderDetailComponent:true}},
-
-  {path:'Dashboard', component: DashboardComponent,canActivate:[RouterGaurdServiceService]},
-  {path:'', component: HomepageComponent},
-  {path:'**', component: NotfoundComponent},
-
-];
+// const routes:Route[] = [
+//   {path:'login', component: LoginComponent},
+//   {path:'signup', component: SignupComponent},
+//   {path:'neworder', component: NewOrderComponent, canActivate:[RouterGaurdServiceService]},
+//   {path:'neworder/:_id/imageEdit', component: ImageEditComponent,canActivate:[RouterGaurdServiceService], data:{isItImageEditComponent:true}},
+//   {path:'allorders', component: OrderDisplayComponent,canActivate:[RouterGaurdServiceService]},//TODO
+//   {path:'orderdetail/:_id', component: OrderDetailsComponent,canActivate:[RouterGaurdServiceService], data:{isItOrderDetailComponent:true}},
+//
+//   {path:'Dashboard', component: DashboardComponent,canActivate:[RouterGaurdServiceService]},
+//   {path:'', component: HomepageComponent},
+//   {path:'**', component: NotfoundComponent},
+//
+// ];
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    SignupComponent,
-    NotfoundComponent,
-    HeaderComponent,
-    FooterComponent,
-    DashboardComponent,
-    GridComponent,
-    OrderDisplayComponent,
-    OrderDetailsComponent,
-    HomepageComponent,
-    ImageEditComponent,
-    TimelineComponent,
-    EditorComponent,
-    NewOrderComponent,
-    PriceComponent,
+    // LoginComponent,
+    // SignupComponent,
+    // NotfoundComponent,
+    // HeaderComponent,
+    // FooterComponent,
+    // DashboardComponent,
+    // GridComponent,
+    // OrderDisplayComponent,
+    // OrderDetailsComponent,
+    // HomepageComponent,
+    // ImageEditComponent,
+    // TimelineComponent,
+    // EditorComponent,
+    // NewOrderComponent,
+    // PriceComponent,
+    Grid1Component,
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    HttpClientModule,
-    RouterModule.forRoot(routes)
+    // FormsModule,
+    // HttpClientModule,
+    // RouterModule.forRoot(routes)
   ],
   providers: [
-    AuthService,
-    ServerService,
-    HelperService,
-    AppVariablesService,
-    RouterGaurdServiceService
+    // AuthService,
+    // ServerService,
+    // HelperService,
+    // AppVariablesService,
+    // RouterGaurdServiceService
   ],
   bootstrap: [
     AppComponent
