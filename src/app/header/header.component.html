@@ -1,0 +1,33 @@
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a  (click)='homeClicked()' class="navbar-brand" style="font-weight: bold; font-size: 30px;color: white">Book Hotel</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+
+      <ul class="navbar-nav ml-auto">
+
+        <li class="navbar-items" *ngIf="helperService.isLoggedIn()" >
+          <div  (click)="allBookingsClicked()" class="nav-link">All Bookings</div>
+        </li>
+        <li class="navbar-items" *ngIf="helperService.isLoggedIn()">
+          <a  [routerLink]="['recommended']"
+              class="nav-link"> Recommended</a>
+        </li>
+        <li class="navbar-items" *ngIf="helperService.isLoggedIn()">
+          <a  [routerLink]="appVariablesService.FRONTEND_ALL_HOTELS"
+              class="nav-link"> All Hotels</a>
+        </li>
+        <li  class="navbar-items">
+          <a *ngIf="!authService.isUserLoggedIn()" class="nav-link" (click)="goToLoginPage()">Login</a>
+          <a *ngIf="authService.isUserLoggedIn()" class="nav-link" (click)="logout()">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+

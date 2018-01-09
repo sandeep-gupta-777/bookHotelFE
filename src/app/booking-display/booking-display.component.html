@@ -1,0 +1,27 @@
+<div class="container" style="background-color: rgb(38,66,67)">
+
+  <!--TODO: find a better way to center text below-->
+  <div class="row border justify-content-center" style="height: 55px">
+    <p  class="text-white pl-1 mt-2 " style="font-size: 25px !important;">Booking for
+      <b>{{(booking && booking.bookingHotel_Name) ||""}}</b>
+    </p>
+  </div>
+
+  <div class="row text-dark bg-white py-4 d-flex justify-content-center" *ngIf="booking">
+
+    <div class="border">
+      <div class="col-12 "><span class="font-weight-bold">Booking id: </span>{{ booking._id}}</div>
+      <div class="col-12 "><span class="font-weight-bold">Requested By: </span>{{booking.bookingCustomerFullName}}
+      </div>
+
+      <div class="col-12 "><span class="font-weight-bold">Booking check in date: </span>{{ booking.bookingCheckInDate}}</div>
+      <div class="col-12 "><span class="font-weight-bold">Booking check out date:</span>{{booking.bookingCheckOutdate}}</div>
+      <div class="col-12 "><span class="font-weight-bold">Adults: </span>{{booking.bookingAdultsCount}}</div>
+      <div class="col-12 "><span class="font-weight-bold">Children: </span>{{booking.bookingChildrenCount}}</div>
+      <div class="col-12 "><span class="font-weight-bold">Booking Price ( <i class="fa fa-rupee text-dark"></i>per Adult per day): </span>{{ booking.bookingTotalPrice}}</div>
+
+    </div>
+
+  </div>
+
+</div>

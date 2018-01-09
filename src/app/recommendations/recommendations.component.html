@@ -1,0 +1,15 @@
+<div class="container bg-white border1" style="width: 100%">
+
+  <!--TODO: find a better way to center text below-->
+  <div class="row border bg-blackish-custom" style="height: 55px">
+    <p class="text-white pl-3 display-1 mt-2  " style="font-size: 30px !important;">Recommendations: {{hotels && hotels.length || '0'}}</p>
+  </div>
+
+  <div class="row">
+    <h1 *ngIf="hotels && hotels.length==0" class="display-1 px-3 text-center">No Results</h1>
+    <div class="col-md-4 col-12 p-2" *ngFor="let hotel of hotels">
+
+      <app-hotel-detail [hotel] = hotel></app-hotel-detail>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+<form  (ngSubmit)="onSubmit(f)" #f="ngForm">
+  <div class="row d-flex justify-content-center ">
+    <div class="col-md-12">
+      <!--form inputs starts-->
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa  fa-user"></i></span>
+        <input type="text" class="form-control " [(ngModel)] = "booking.bookingCustomerFullName"   name="bookingCustomerFullName" required
+               placeholder="Full name">
+      </div>
+
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa  fa-sign-in"></i></span>
+        <input type="date" class="form-control " [(ngModel)] = "booking.bookingCheckInDate"  name="bookingCheckInDate" required
+               placeholder="Check in date">
+      </div>
+
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa  fa-sign-out"></i></span>
+        <input type="date" class="form-control "  [(ngModel)] = "booking.bookingCheckOutdate"   name="bookingCheckOutdate" required
+               placeholder="Check out date">
+      </div>
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa  fa-users"></i></span>
+        <textarea type="text" class="form-control " [(ngModel)] = "booking.bookingAdultsCount"   name="bookingAdultsCount" required
+                  placeholder="Adults"></textarea>
+      </div>
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-child"></i></span>
+        <textarea type="text" class="form-control " [(ngModel)] = "booking.bookingChildrenCount"   name="bookingChildrenCount" required
+                  placeholder="Children"></textarea>
+      </div>
+      <!--<p class="lead" style="font-size: 15px" *ngIf="showErrorMessage">{{message}}</p>-->
+    </div>
+
+    <button style="width: 60%" type="button" (click)="saveBooking(false)"  class="btn btn-block text-white  mt-2 bg-blackish-custom">Save as a draft</button>
+    <button style="width: 60%" type="submit" class="btn btn-block text-white  mt-2 bg-blackish-custom">Book</button>
+
+  </div>
+
+</form>

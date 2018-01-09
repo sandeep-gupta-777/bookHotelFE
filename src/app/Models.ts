@@ -1,50 +1,37 @@
-/**
- * Created by sandgup3 on 17/12/2017.
- */
-export interface CartisanUser {
+
+export interface Hotel{
+  _id?:string
+  hotelName?:string,
+  hotelAddress?:string,
+  hotelCity?: string,
+  hotelState?:string,
+  hotelImageUrl?:string,
+  hotelCustomerId?:string[],
+  hotelPrice?:number;
+}
+
+export interface Booking{
+
+    _id?:string
+    bookingCustomerFullName?: string,
+    bookingCustomer_id?: string,
+    bookingCheckInDate?: string,
+    bookingCheckOutdate?: string,
+    bookingAdultsCount?: number,
+    bookingChildrenCount?: number,
+    bookingOtherDetails?: string,//TODO: make it embedded
+    bookingTotalPrice?: number,
+    bookingIsSubmitted?:boolean,
+    bookingHotel_id?:string,
+  bookingHotel_Name?:string
+  }
+
+export interface Customer {
 
   _id?:string,
+  customerPassword?: string,
+  customerFullName?: string,
+  customerEmail?: string,
 
-  userCustomID?: string,
-  userPassword?: string,
-  userFullName?: string,
-  userEmail?: string,
-  userMobileNumber?: string,
-  userRole?: string,
-
-  userProfileID?: string,  userProfilePicURL?: string,  userVotes?: string[], userComments?: { comment: string; image: string }[],
-  userUploaded?: string[],   userDateOfSignup?: Date,   userLastLogin?: Date
 }
 
-export interface CartisanOrder {//TODO: remove ?
-
-  _id?:string,
-  orderModelName?:string
-  orderSerialNumber?: string,
-  orderDate?: number,
-  orderTitle?: string,
-  orderHTML?:String,
-  orderText?:String,
-  orderAssignedBy_id?:string,
-  orderAssignedBy_fullName?:string,
-  orderAssignedTo_id?:string,
-  orderAssignedTo_fullName?:string,
-  orderEstimaterPrice?:String,
-  orderAddress?:String,
-  orderImageContainersArray?:OrderImageContainer[],
-  orderPriceEstimationMode?:number,
-  orderTotalPrice?:Number
-}
-export interface OrderImageContainer{
-  orderImageURL?:String,
-  orderImageTagArray?:ImageTagArray[],
-  orderImagePrice?:number
-}
-
-export interface ImageTagArray{
-  toolTipText?: String,
-  toolTipTextVisible?: boolean,
-  inputHidden: boolean,
-  clientX?: number,
-  clientY?: number
-}

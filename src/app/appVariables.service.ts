@@ -1,38 +1,42 @@
 import {Injectable} from '@angular/core';
+import {Hotel} from "./Models";
 
 @Injectable()
 export class AppVariablesService {
 
-  constructor() {
-  }
+  constructor() {}
 
-  FRONTEND_ORDER_IMAGE_EDIT_PAGE_URL(id){
-    return `neworder/${id}/imageEdit`;
-  }
+  currentHotel:Hotel;
 
-  readonly FRONTEND_LOGIN_PAGE_URL = 'login';
-  readonly FRONTEND_SIGNUP_PAGE_URL = 'signup';
-  readonly FRONTEND_ORDER_DETAIL_URL = 'orderdetail';
-  readonly FRONTEND_ALL_ORDERS_URL = 'allorders';
-  readonly FRONTEND_NEW_ORDER_URL = 'neworder';
-  readonly FRONTEND_ORDER_PAGE_URL = 'orderCarService';
-  // readonly FRONTEND_ORDER_IMAGE_EDIT_PAGE_URL = 'neworder/:id/imageEdit';
-  public FRONTEND_Keyword = '';
-  public previousSRPURL  = "/";
-  public previousSRPQueryParams  = {};
+  LOCALSTORAGE_CURRENTHOTEL_ID:string = "current_hotel_id";
+  LOCALSTORAGE_CURRENTHOTEL_NAME:string = "current_hotel_name";
+  LOCALSTORAGE_CURRENTHOTEL_PRICE:string = "current_hotel_price";
   public LOCALSTORAGE_user_id  = 'user_id';
   public LOCALSTORAGE_user_fullName  = 'userFullName';
 
-  // readonly BACKEND_SERVER_URL = 'https://shielded-harbor-17443.herokuapp.com';
-  readonly BACKEND_SERVER_URL = 'https://cartisanappnodejs.herokuapp.com';
-  // readonly BACKEND_SERVER_URL = 'http://localhost:3000';
+  readonly FRONTEND_LOGIN_PAGE_URL = 'login';
+  readonly FRONTEND_SIGNUP_PAGE_URL = 'signup';
+  readonly FRONTEND_ALL_HOTELS = 'hotellist';
+  readonly FRONTEND_HOTEL = 'hotel';
+  readonly FRONTEND_BOOKING_DISPLAY = 'booking';
+  readonly FRONTEND_ALL_BOOKINGS_GRID = 'allbookings';
+  public previousSRPURL  = "/";
 
+
+
+  /*BACKEND URLS*/
+  readonly BACKEND_SERVER_URL = 'http://localhost:3000';
+  public BACKEND_HOTEL_LIST =  this.BACKEND_SERVER_URL+ '/hotellist';
+
+  //bookings
+  readonly BACKEND_ALL_BOOKINGS_GRID =  this.BACKEND_SERVER_URL + '/bookings/allbookings';
+  public BACKEND_SUBMIT_BOOKING_URL =  this.BACKEND_SERVER_URL+ '/bookings/submitbooking';
+  public BACKEND_RECOMMENDATIONS =  this.BACKEND_SERVER_URL+ '/bookings/recommendations';
+  public BACKEND_GET_BOOKING_URL =  this.BACKEND_SERVER_URL+ '/bookings/getbooking';
+
+  //users
   public BACKEND_SIGNUP_URL = this.BACKEND_SERVER_URL + '/users/signup';
   public BACKEND_LOGIN_URL =  this.BACKEND_SERVER_URL+ '/users/login';
-  public BACKEND_UPLOAD_URL =  this.BACKEND_SERVER_URL+ '/upload';
-  public BACKEND_GETALLORDERS_URL =  this.BACKEND_SERVER_URL+ '/getallorders';
-  public BACKEND_GETORDER_URL =  this.BACKEND_SERVER_URL+ '/getorder';
-  public BACKEND_ORDER_SAVE_URL =  this.BACKEND_SERVER_URL+ '/users/saveorder';
-  public BACKEND_ORDER_UPDATE_URL =  this.BACKEND_SERVER_URL+ '/users/updateorder';
+
 
 }

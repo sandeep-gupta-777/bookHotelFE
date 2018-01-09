@@ -1,0 +1,12 @@
+<div class="card" style="width: 20rem;border-top:2px solid #154545;">
+  <img class="card-img-top"
+       [src]="hotel.hotelImageUrl" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title" style="cursor: pointer" (click)="hotelClicked(hotel)">{{hotel.hotelName}}</h4>
+    <p class="card-text">City: {{hotel.hotelCity}}</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <!--<li class="list-group-item">{{'Address: '+hotel.hotelAddress}}</li>-->
+    <li class="list-group-item">Estimated Price: <i class="fa fa-rupee text-dark"></i>{{hotel.hotelPrice}} per day</li>
+  </ul>
+</div>

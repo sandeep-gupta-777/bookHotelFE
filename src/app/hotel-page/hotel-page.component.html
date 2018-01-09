@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <div class="display-4 pb-2 font-weight-bold text-center text-white">{{hotel.hotelName}}</div>
+    </div>
+    <div class="col-12 text-center"><img class="img-thumbnail img-fluid" style="max-height: 300px" [src]="hotel.hotelImageUrl" alt=""></div>
+  </div>
+  <div class="row mt-4 justify-content-center">
+    <app-book-hotel [hotel]="hotel"></app-book-hotel>
+  </div>
+
+</div>
